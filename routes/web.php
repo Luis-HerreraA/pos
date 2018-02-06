@@ -19,3 +19,7 @@ Route::get('/print', function () {
     return view('index');
 });
 
+Route::get('/linux', function () {
+    return view('linux');
+});
+
